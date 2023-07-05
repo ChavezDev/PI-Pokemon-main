@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
         unique: "nameIndex",
       },
       image: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       life: {
